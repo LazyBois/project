@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRoot>
+	<TestCase ID="1" desp="Line在凸多边形边界中裁剪显示" type="AccuracyTest"
+		complex="1,1,1,0,0,0">
+		<Entity Type="Line">
+			<StartPoint>150, 400</StartPoint>
+			<EndPoint>140, 0</EndPoint>
+		</Entity>
+		<Boundary Type="Concave Polygon">
+			<Vertex>120, 386</Vertex>
+			<Vertex>240, 386</Vertex>
+			<Vertex>646, 246</Vertex>
+			<Vertex>424, 14</Vertex>
+			<Vertex>171, 76</Vertex>
+			<Vertex>120, 386</Vertex>
+		</Boundary>
+	</TestCase>
+	<TestCase ID="2" desp="Circle在凸多边形边界中裁剪显示" type="AccuracyTest"
+		complex="1,1,1,0,0,0">
+		<Entity Type="Circle">
+			<CenterPoint>210, 197</CenterPoint>
+			<Radius>50</Radius>
+		</Entity>
+		<Boundary Type="Concave Polygon">
+			<Vertex>257, 472</Vertex>
+			<Vertex>394, 543</Vertex>
+			<Vertex>530, 413</Vertex>
+			<Vertex>646, 413</Vertex>
+			<Vertex>589, 306</Vertex>
+			<Vertex>638, 186</Vertex>
+			<Vertex>512, 146</Vertex>
+			<Vertex>463, 49</Vertex>
+			<Vertex>364, 110</Vertex>
+			<Vertex>230, 110</Vertex>
+			<Vertex>265, 213</Vertex>
+			<Vertex>160, 295</Vertex>
+			<Vertex>261, 394</Vertex>
+			<Vertex>228, 488</Vertex>
+			<Vertex>257, 472</Vertex>
+		</Boundary>
+
+	</TestCase>
+	<TestCase ID="3" desp="Line在凹多边形边界中裁剪显示" type="AccuracyTest"
+		complex="1,1,1,0,0,0">
+		<Entity Type="Line">
+			<StartPoint>86, 433</StartPoint>
+			<EndPoint>712, 237</EndPoint>
+		</Entity>
+		<Boundary Type="Concave Polygon">
+			<Vertex>122, 214</Vertex>
+			<Vertex>193, 455</Vertex>
+			<Vertex>358, 275</Vertex>
+			<Vertex>470, 584</Vertex>
+			<Vertex>668, 62</Vertex>
+			<Vertex>254, 14</Vertex>
+			<Vertex>122, 214</Vertex>
+		</Boundary>
+	</TestCase>
+	<TestCase ID="4" desp="Circle在凹多边形边界中裁剪显示" type="AccuracyTest"
+		complex="1,1,1,0,0,0">
+		<Entity Type="Circle">
+			<CenterPoint>228, 435</CenterPoint>
+			<Radius>50</Radius>
+		</Entity>
+		<Boundary Type="Concave Polygon">
+			<Vertex>257, 472</Vertex>
+			<Vertex>394, 543</Vertex>
+			<Vertex>530, 413</Vertex>
+			<Vertex>646, 413</Vertex>
+			<Vertex>589, 306</Vertex>
+			<Vertex>638, 186</Vertex>
+			<Vertex>512, 146</Vertex>
+			<Vertex>463, 49</Vertex>
+			<Vertex>364, 110</Vertex>
+			<Vertex>230, 110</Vertex>
+			<Vertex>265, 213</Vertex>
+			<Vertex>160, 295</Vertex>
+			<Vertex>261, 394</Vertex>
+			<Vertex>228, 488</Vertex>
+			<Vertex>257, 472</Vertex>
+		</Boundary>
+	</TestCase>
+</TestRoot>
